@@ -1,0 +1,19 @@
+{
+  "name": "@poc/temporal-activities-utility",
+  "version": "1.4.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "build": "tsc --build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@temporalio/activity": "^1.11.7",
+    "axios": "^1.7.9"
+  }
+}
